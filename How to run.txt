@@ -1,0 +1,11 @@
+1. Install Dependencies:
+pip install streamlit pandas openpyxl scikit-learn joblib
+
+2.Generate the Data & Model (Optional but Recommended):
+python src/data_cleaning.py
+python src/train_model.py
+
+3. Launch the Dashboard:
+python -m streamlit run src/app.py
+
+
